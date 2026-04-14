@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主页网格项样式 -->
+    <style name="HomeGridItem">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <!-- 视频分类标签 -->
+    <style name="VideoCategoryTab">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:paddingStart">16dp</item>
+        <item name="android:paddingEnd">16dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:background">@drawable/bg_video_tab</item>
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+
+    <!-- 视频卡片项 -->
+    <style name="VideoCardItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/bg_card</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- 我的页面菜单项 -->
+    <style name="MineMenuItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+</resources>

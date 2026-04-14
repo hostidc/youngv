@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.UCBrowser" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/primary</item>
+    </style>
+
+    <style name="Theme.UCBrowser" parent="Base.Theme.UCBrowser" />
+    
+    <!-- 夜间模式主题 -->
+    <style name="Theme.UCBrowser.Night" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/primary_night</item>
+        <item name="colorPrimaryDark">@color/primary_dark_night</item>
+        <item name="colorAccent">@color/accent_night</item>
+        <item name="android:statusBarColor">@color/primary_night</item>
+    </style>
+</resources>
